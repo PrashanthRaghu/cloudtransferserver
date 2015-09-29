@@ -1,0 +1,3 @@
+mvn clean compile package
+scp -i ~/.ssh/devenvironment.pem target/*.jar admin@ec2-54-200-225-152.us-west-2.compute.amazonaws.com:~/jar
+scp -i ~/.ssh/devenvironment.pem target/*.jar admin@ec2-52-11-130-234.us-west-2.compute.amazonaws.com:~/jar
